@@ -4,7 +4,6 @@ package com.neu.controller;
 import javax.servlet.http.HttpSession;
 
 import com.neu.entity.*;
-import com.neu.entity.PolicyNumResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -77,7 +76,6 @@ public class Systemcontroller {
      */
     @RequestMapping("jumptoServiceOrganization")
     public String jumptoserviceOrganization() {
-        List list = new ArrayList<>();
         return "ServiceOrganization";
     }
 

@@ -17,7 +17,7 @@
     <select id="zhengcefaguifabu" resultType="com.neu.entity.Inquire">
         SELECT
             year (p.public_date) areas,
-            count (1) number
+            count(1) number
         FROM
             tjpt.site_policy_rule p
         WHERE
